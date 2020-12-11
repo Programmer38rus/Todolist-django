@@ -103,7 +103,7 @@ LANGUAGE_CODE = 'ru-RU'
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '/tmp/memcached.sock',
+        'LOCATION': 'unix:/tmp/memcached.sock',
     }
 }
 
