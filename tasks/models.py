@@ -57,6 +57,8 @@ class TodoItem(models.Model):
 
     category = models.ManyToManyField(Category, blank=True)
 
+    class Meta:
+        verbose_name_plural = "Задачи"
     def priority_counter():
         for i in Priority.objects.all():
             i.priority_count = TodoItem.objects.filter(priority=i.id).count()
