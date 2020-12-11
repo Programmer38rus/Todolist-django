@@ -65,38 +65,47 @@ LANGUAGE_CODE = 'ru-RU'
 
 # django_heroku.settings(locals())
 
-
-def get_cache():
-    environment_ready = all(
-        os.environ.get(f'MEMCACHIER_{key}', False)
-        for key in ['SERVERS', 'USERNAME', 'PASSWORD']
-    )
-    if not environment_ready:
-        cache = {'BACKEND': 'django.core.cache.backends.locmem.LocMemCache'}
-    else:
-        servers = os.environ['MEMCACHIER_SERVERS']
-        username = os.environ['MEMCACHIER_USERNAME']
-        password = os.environ['MEMCACHIER_PASSWORD']
-        cache = {
-            'default': {
-                'BACKEND': 'django_bmemcached.memcached.BMemcached',
-                'TIMEOUT': None,
-                'LOCATION': servers,
-                'OPTIONS': {
-                    'username': username,
-                    'password': password,
-                }
-            }
-        }
-    return {'default': cache}
+#
+# def get_cache():
+#     environment_ready = all(
+#         os.environ.get(f'MEMCACHIER_{key}', False)
+#         for key in ['SERVERS', 'USERNAME', 'PASSWORD']
+#     )
+#     if not environment_ready:
+#         cache = {'BACKEND': 'django.core.cache.backends.locmem.LocMemCache'}
+#     else:
+#         servers = os.environ['MEMCACHIER_SERVERS']
+#         username = os.environ['MEMCACHIER_USERNAME']
+#         password = os.environ['MEMCACHIER_PASSWORD']
+#         cache = {
+#             'default': {
+#                 'BACKEND': 'django_bmemcached.memcached.BMemcached',
+#                 'TIMEOUT': None,
+#                 'LOCATION': servers,
+#                 'OPTIONS': {
+#                     'username': username,
+#                     'password': password,
+#                 }
+#             }
+#         }
+#     return {'default': cache}
 
 
 # CACHES = get_cache()
+
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+#         'LOCATION': '127.0.0.1:11211',
+#     }
+# }
+
 CACHES = {
     'default': {
-        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': '127.0.0.1:11211',
+        'BACKEND': 'django.core.cache.backends.memcached.PyLibMCCache',
+        'LOCATION': '/tmp/memcached.sock',
     }
 }
+
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
