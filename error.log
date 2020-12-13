@@ -1,0 +1,1408 @@
+[2020-12-11 11:37:29 +0000] [21342] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 11:37:29 +0000] [21342] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (21342)
+[2020-12-11 11:37:29 +0000] [21342] [INFO] Using worker: sync
+[2020-12-11 11:37:29 +0000] [21345] [INFO] Booting worker with pid: 21345
+[2020-12-11 11:37:29 +0000] [21346] [INFO] Booting worker with pid: 21346
+[2020-12-11 11:37:29 +0000] [21347] [INFO] Booting worker with pid: 21347
+[2020-12-11 12:19:49 +0000] [280] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 12:19:49 +0000] [280] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (280)
+[2020-12-11 12:19:49 +0000] [280] [INFO] Using worker: sync
+[2020-12-11 12:19:49 +0000] [376] [INFO] Booting worker with pid: 376
+[2020-12-11 12:19:49 +0000] [377] [INFO] Booting worker with pid: 377
+[2020-12-11 12:19:49 +0000] [378] [INFO] Booting worker with pid: 378
+[2020-12-11 08:05:23 -0600] [378] [INFO] Worker exiting (pid: 378)
+[2020-12-11 08:05:23 -0600] [377] [INFO] Worker exiting (pid: 377)
+[2020-12-11 08:05:23 -0600] [376] [INFO] Worker exiting (pid: 376)
+[2020-12-11 14:05:23 +0000] [280] [INFO] Handling signal: term
+[2020-12-11 14:05:23 +0000] [280] [INFO] Shutting down: Master
+[2020-12-11 14:05:24 +0000] [2386] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 14:05:24 +0000] [2386] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (2386)
+[2020-12-11 14:05:24 +0000] [2386] [INFO] Using worker: sync
+[2020-12-11 14:05:24 +0000] [2389] [INFO] Booting worker with pid: 2389
+[2020-12-11 14:05:24 +0000] [2390] [INFO] Booting worker with pid: 2390
+[2020-12-11 14:05:24 +0000] [2391] [INFO] Booting worker with pid: 2391
+[2020-12-11 08:09:32 -0600] [2389] [INFO] Worker exiting (pid: 2389)
+[2020-12-11 08:09:32 -0600] [2390] [INFO] Worker exiting (pid: 2390)
+[2020-12-11 08:09:32 -0600] [2391] [INFO] Worker exiting (pid: 2391)
+[2020-12-11 14:09:32 +0000] [2386] [INFO] Handling signal: term
+[2020-12-11 14:09:32 +0000] [2386] [INFO] Shutting down: Master
+[2020-12-11 14:09:32 +0000] [2474] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 14:09:32 +0000] [2474] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (2474)
+[2020-12-11 14:09:32 +0000] [2474] [INFO] Using worker: sync
+[2020-12-11 14:09:32 +0000] [2477] [INFO] Booting worker with pid: 2477
+[2020-12-11 14:09:32 +0000] [2478] [INFO] Booting worker with pid: 2478
+[2020-12-11 14:09:32 +0000] [2480] [INFO] Booting worker with pid: 2480
+[2020-12-11 14:33:51 +0000] [280] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 14:33:51 +0000] [280] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (280)
+[2020-12-11 14:33:51 +0000] [280] [INFO] Using worker: sync
+[2020-12-11 14:33:51 +0000] [324] [INFO] Booting worker with pid: 324
+[2020-12-11 14:33:51 +0000] [325] [INFO] Booting worker with pid: 325
+[2020-12-11 14:33:51 +0000] [328] [INFO] Booting worker with pid: 328
+[2020-12-11 08:45:43 -0600] [324] [INFO] Worker exiting (pid: 324)
+[2020-12-11 08:45:43 -0600] [325] [INFO] Worker exiting (pid: 325)
+[2020-12-11 08:45:43 -0600] [328] [INFO] Worker exiting (pid: 328)
+[2020-12-11 14:45:43 +0000] [280] [INFO] Handling signal: term
+[2020-12-11 14:45:43 +0000] [280] [INFO] Shutting down: Master
+[2020-12-11 14:47:33 +0000] [699] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 14:47:33 +0000] [699] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (699)
+[2020-12-11 14:47:33 +0000] [699] [INFO] Using worker: sync
+[2020-12-11 14:47:33 +0000] [702] [INFO] Booting worker with pid: 702
+[2020-12-11 14:47:33 +0000] [703] [INFO] Booting worker with pid: 703
+[2020-12-11 14:47:33 +0000] [705] [INFO] Booting worker with pid: 705
+[2020-12-11 14:47:34 +0000] [702] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 14:47:34 +0000] [702] [INFO] Worker exiting (pid: 702)
+[2020-12-11 14:47:34 +0000] [703] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 14:47:34 +0000] [703] [INFO] Worker exiting (pid: 703)
+[2020-12-11 14:47:34 +0000] [705] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 14:47:34 +0000] [705] [INFO] Worker exiting (pid: 705)
+[2020-12-11 15:18:10 +0000] [1181] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 15:18:10 +0000] [1181] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (1181)
+[2020-12-11 15:18:10 +0000] [1181] [INFO] Using worker: sync
+[2020-12-11 15:18:10 +0000] [1184] [INFO] Booting worker with pid: 1184
+[2020-12-11 15:18:10 +0000] [1185] [INFO] Booting worker with pid: 1185
+[2020-12-11 15:18:10 +0000] [1187] [INFO] Booting worker with pid: 1187
+[2020-12-11 15:18:10 +0000] [1184] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 15:18:10 +0000] [1184] [INFO] Worker exiting (pid: 1184)
+[2020-12-11 15:18:10 +0000] [1185] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 15:18:10 +0000] [1185] [INFO] Worker exiting (pid: 1185)
+[2020-12-11 15:18:10 +0000] [1187] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 15:18:10 +0000] [1187] [INFO] Worker exiting (pid: 1187)
+[2020-12-11 15:34:52 +0000] [281] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 15:34:52 +0000] [281] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (281)
+[2020-12-11 15:34:52 +0000] [281] [INFO] Using worker: sync
+[2020-12-11 15:34:52 +0000] [325] [INFO] Booting worker with pid: 325
+[2020-12-11 15:34:52 +0000] [327] [INFO] Booting worker with pid: 327
+[2020-12-11 15:34:52 +0000] [328] [INFO] Booting worker with pid: 328
+[2020-12-11 15:34:53 +0000] [327] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 15:34:53 +0000] [327] [INFO] Worker exiting (pid: 327)
+[2020-12-11 15:34:53 +0000] [325] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 15:34:53 +0000] [325] [INFO] Worker exiting (pid: 325)
+[2020-12-11 15:34:53 +0000] [328] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 15:34:53 +0000] [328] [INFO] Worker exiting (pid: 328)
+[2020-12-11 15:36:06 +0000] [405] [INFO] Starting gunicorn 20.0.4
+[2020-12-11 15:36:06 +0000] [405] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (405)
+[2020-12-11 15:36:06 +0000] [405] [INFO] Using worker: sync
+[2020-12-11 15:36:06 +0000] [408] [INFO] Booting worker with pid: 408
+[2020-12-11 15:36:06 +0000] [410] [INFO] Booting worker with pid: 410
+[2020-12-11 15:36:06 +0000] [411] [INFO] Booting worker with pid: 411
+[2020-12-11 15:36:06 +0000] [408] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 15:36:06 +0000] [408] [INFO] Worker exiting (pid: 408)
+[2020-12-11 15:36:06 +0000] [410] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 15:36:06 +0000] [410] [INFO] Worker exiting (pid: 410)
+[2020-12-11 15:36:06 +0000] [411] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-11 15:36:06 +0000] [411] [INFO] Worker exiting (pid: 411)
+[2020-12-12 03:03:00 +0000] [10732] [INFO] Starting gunicorn 20.0.4
+[2020-12-12 03:03:00 +0000] [10732] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (10732)
+[2020-12-12 03:03:00 +0000] [10732] [INFO] Using worker: sync
+[2020-12-12 03:03:00 +0000] [10735] [INFO] Booting worker with pid: 10735
+[2020-12-12 03:03:00 +0000] [10736] [INFO] Booting worker with pid: 10736
+[2020-12-12 03:03:00 +0000] [10737] [INFO] Booting worker with pid: 10737
+[2020-12-12 03:03:00 +0000] [10735] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-12 03:03:00 +0000] [10735] [INFO] Worker exiting (pid: 10735)
+[2020-12-12 03:03:01 +0000] [10736] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-12 03:03:01 +0000] [10736] [INFO] Worker exiting (pid: 10736)
+[2020-12-12 03:03:01 +0000] [10737] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-12 03:03:01 +0000] [10737] [INFO] Worker exiting (pid: 10737)
+[2020-12-13 03:26:47 +0000] [544] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 03:26:47 +0000] [544] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (544)
+[2020-12-13 03:26:47 +0000] [544] [INFO] Using worker: sync
+[2020-12-13 03:26:47 +0000] [547] [INFO] Booting worker with pid: 547
+[2020-12-13 03:26:47 +0000] [548] [INFO] Booting worker with pid: 548
+[2020-12-13 03:26:47 +0000] [549] [INFO] Booting worker with pid: 549
+[2020-12-13 03:26:48 +0000] [547] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 03:26:48 +0000] [547] [INFO] Worker exiting (pid: 547)
+[2020-12-13 03:26:48 +0000] [548] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 03:26:48 +0000] [548] [INFO] Worker exiting (pid: 548)
+[2020-12-13 03:26:48 +0000] [549] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 03:26:48 +0000] [549] [INFO] Worker exiting (pid: 549)
+[2020-12-13 03:27:14 +0000] [585] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 03:27:14 +0000] [585] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (585)
+[2020-12-13 03:27:14 +0000] [585] [INFO] Using worker: sync
+[2020-12-13 03:27:14 +0000] [588] [INFO] Booting worker with pid: 588
+[2020-12-13 03:27:14 +0000] [589] [INFO] Booting worker with pid: 589
+[2020-12-13 03:27:14 +0000] [590] [INFO] Booting worker with pid: 590
+[2020-12-13 03:27:14 +0000] [588] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 03:27:14 +0000] [588] [INFO] Worker exiting (pid: 588)
+[2020-12-13 03:27:15 +0000] [589] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 03:27:15 +0000] [589] [INFO] Worker exiting (pid: 589)
+[2020-12-13 03:27:15 +0000] [590] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 03:27:15 +0000] [590] [INFO] Worker exiting (pid: 590)
+[2020-12-13 03:32:25 +0000] [859] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 03:32:25 +0000] [859] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (859)
+[2020-12-13 03:32:25 +0000] [859] [INFO] Using worker: sync
+[2020-12-13 03:32:25 +0000] [862] [INFO] Booting worker with pid: 862
+[2020-12-13 03:32:25 +0000] [864] [INFO] Booting worker with pid: 864
+[2020-12-13 03:32:25 +0000] [865] [INFO] Booting worker with pid: 865
+[2020-12-13 03:32:26 +0000] [862] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 03:32:26 +0000] [862] [INFO] Worker exiting (pid: 862)
+[2020-12-13 03:32:26 +0000] [864] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 03:32:26 +0000] [864] [INFO] Worker exiting (pid: 864)
+[2020-12-13 03:32:26 +0000] [865] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 03:32:26 +0000] [865] [INFO] Worker exiting (pid: 865)
+[2020-12-13 05:29:56 +0000] [4764] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 05:29:56 +0000] [4764] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (4764)
+[2020-12-13 05:29:56 +0000] [4764] [INFO] Using worker: sync
+[2020-12-13 05:29:56 +0000] [4768] [INFO] Booting worker with pid: 4768
+[2020-12-13 05:29:56 +0000] [4769] [INFO] Booting worker with pid: 4769
+[2020-12-13 05:29:56 +0000] [4770] [INFO] Booting worker with pid: 4770
+[2020-12-13 05:29:56 +0000] [4768] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 05:29:56 +0000] [4768] [INFO] Worker exiting (pid: 4768)
+[2020-12-13 05:29:56 +0000] [4769] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 05:29:56 +0000] [4769] [INFO] Worker exiting (pid: 4769)
+[2020-12-13 05:29:56 +0000] [4770] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 05:29:56 +0000] [4770] [INFO] Worker exiting (pid: 4770)
+[2020-12-13 05:29:57 +0000] [4764] [INFO] Shutting down: Master
+[2020-12-13 05:29:57 +0000] [4764] [INFO] Reason: Worker failed to boot.
+[2020-12-13 05:43:51 +0000] [5124] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 05:43:51 +0000] [5124] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (5124)
+[2020-12-13 05:43:51 +0000] [5124] [INFO] Using worker: sync
+[2020-12-13 05:43:51 +0000] [5128] [INFO] Booting worker with pid: 5128
+[2020-12-13 05:43:51 +0000] [5129] [INFO] Booting worker with pid: 5129
+[2020-12-13 05:43:51 +0000] [5130] [INFO] Booting worker with pid: 5130
+[2020-12-13 05:43:51 +0000] [5128] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 05:43:51 +0000] [5128] [INFO] Worker exiting (pid: 5128)
+[2020-12-13 05:43:51 +0000] [5129] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 05:43:51 +0000] [5129] [INFO] Worker exiting (pid: 5129)
+[2020-12-13 05:43:51 +0000] [5130] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 05:43:51 +0000] [5130] [INFO] Worker exiting (pid: 5130)
+[2020-12-13 05:43:51 +0000] [5124] [INFO] Shutting down: Master
+[2020-12-13 05:43:51 +0000] [5124] [INFO] Reason: Worker failed to boot.
+[2020-12-13 05:55:09 +0000] [5476] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 05:55:09 +0000] [5476] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (5476)
+[2020-12-13 05:55:09 +0000] [5476] [INFO] Using worker: sync
+[2020-12-13 05:55:09 +0000] [5479] [INFO] Booting worker with pid: 5479
+[2020-12-13 05:55:09 +0000] [5480] [INFO] Booting worker with pid: 5480
+[2020-12-13 05:55:09 +0000] [5482] [INFO] Booting worker with pid: 5482
+[2020-12-13 05:55:10 +0000] [5479] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 05:55:10 +0000] [5479] [INFO] Worker exiting (pid: 5479)
+[2020-12-13 05:55:10 +0000] [5480] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 05:55:10 +0000] [5480] [INFO] Worker exiting (pid: 5480)
+[2020-12-13 05:55:10 +0000] [5482] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/var/www/Todolist-django/todoapp/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 79, in __getattr__
+    self._setup(name)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 66, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/m83/env/for_todolist_3.6/lib/python3.6/site-packages/django/conf/__init__.py", line 176, in __init__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+[2020-12-13 05:55:10 +0000] [5482] [INFO] Worker exiting (pid: 5482)
+[2020-12-13 05:55:33 +0000] [5512] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 05:55:33 +0000] [5512] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (5512)
+[2020-12-13 05:55:33 +0000] [5512] [INFO] Using worker: sync
+[2020-12-13 05:55:33 +0000] [5515] [INFO] Booting worker with pid: 5515
+[2020-12-13 05:55:33 +0000] [5517] [INFO] Booting worker with pid: 5517
+[2020-12-13 05:55:33 +0000] [5518] [INFO] Booting worker with pid: 5518
+[2020-12-13 05:56:14 +0000] [5512] [INFO] Handling signal: term
+[2020-12-12 23:56:14 -0600] [5515] [INFO] Worker exiting (pid: 5515)
+[2020-12-12 23:56:14 -0600] [5517] [INFO] Worker exiting (pid: 5517)
+[2020-12-12 23:56:14 -0600] [5518] [INFO] Worker exiting (pid: 5518)
+[2020-12-13 05:56:14 +0000] [5512] [INFO] Shutting down: Master
+[2020-12-13 05:56:14 +0000] [5549] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 05:56:14 +0000] [5549] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (5549)
+[2020-12-13 05:56:14 +0000] [5549] [INFO] Using worker: sync
+[2020-12-13 05:56:14 +0000] [5552] [INFO] Booting worker with pid: 5552
+[2020-12-13 05:56:14 +0000] [5553] [INFO] Booting worker with pid: 5553
+[2020-12-13 05:56:14 +0000] [5555] [INFO] Booting worker with pid: 5555
+[2020-12-12 23:57:53 -0600] [5552] [INFO] Worker exiting (pid: 5552)
+[2020-12-12 23:57:53 -0600] [5553] [INFO] Worker exiting (pid: 5553)
+[2020-12-12 23:57:53 -0600] [5555] [INFO] Worker exiting (pid: 5555)
+[2020-12-13 05:57:53 +0000] [5549] [INFO] Handling signal: term
+[2020-12-13 05:57:53 +0000] [5549] [INFO] Shutting down: Master
+[2020-12-13 05:57:53 +0000] [5603] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 05:57:53 +0000] [5603] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (5603)
+[2020-12-13 05:57:53 +0000] [5603] [INFO] Using worker: sync
+[2020-12-13 05:57:53 +0000] [5606] [INFO] Booting worker with pid: 5606
+[2020-12-13 05:57:53 +0000] [5608] [INFO] Booting worker with pid: 5608
+[2020-12-13 05:57:53 +0000] [5609] [INFO] Booting worker with pid: 5609
+[2020-12-12 23:58:02 -0600] [5606] [INFO] Worker exiting (pid: 5606)
+[2020-12-12 23:58:02 -0600] [5608] [INFO] Worker exiting (pid: 5608)
+[2020-12-13 05:58:02 +0000] [5603] [INFO] Handling signal: term
+[2020-12-12 23:58:02 -0600] [5609] [INFO] Worker exiting (pid: 5609)
+[2020-12-13 05:58:02 +0000] [5603] [INFO] Shutting down: Master
+[2020-12-13 05:58:02 +0000] [5634] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 05:58:02 +0000] [5634] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (5634)
+[2020-12-13 05:58:02 +0000] [5634] [INFO] Using worker: sync
+[2020-12-13 05:58:02 +0000] [5637] [INFO] Booting worker with pid: 5637
+[2020-12-13 05:58:02 +0000] [5638] [INFO] Booting worker with pid: 5638
+[2020-12-13 05:58:03 +0000] [5639] [INFO] Booting worker with pid: 5639
