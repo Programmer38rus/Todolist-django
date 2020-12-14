@@ -33,21 +33,31 @@ def index(request):
     # category = Category.objects.all().select_related()
     # priority = Priority.objects.all().select_related()
 
-    list = []
-    dict = {}
+    list_todo = []
+    list_priority = []
+    dict_cat = {}
+    dict_priority = {}
 
     try:
         todoitems = TodoItem.objects.filter(owner=request.user).select_related()
+        category = Category.objects.all().select_related()
+        priority = Priority.objects.all().select_related()
 
         for item in todoitems:
-            list.append(TodoItem.category.through.objects.filter(todoitem_id=item.id).prefetch_related()[0])
+            list_todo.append(TodoItem.category.through.objects.filter(todoitem_id=item.id).prefetch_related()[0])
+            list_priority.append(item)
 
-        category = Category.objects.all().select_related()
         for cat in category:
-            dict[cat] = 0
-            for i in list:
+            dict_cat[cat] = 0
+            for i in list_todo:
                 if cat.id == i.category_id:
-                    dict[cat] += 1
+                    dict_cat[cat] += 1
+        for pri in priority:
+            dict_priority[pri] = 0
+            for task in list_priority:
+                if pri.id == task.priority.id:
+                    dict_priority[pri] += 1
+        print(dict_priority)
     except:
         pass
 
@@ -55,7 +65,7 @@ def index(request):
     #     print(dic.name, value)
     # for i in todo_category:
     #     print(i.category.id)
-    return render(request, "tasks/index.html", {"category": dict, "priority": 'priority', "cache": cache.get('date_open')})
+    return render(request, "tasks/index.html", {"category": dict_cat, "priority": dict_priority, "cache": cache.get('date_open')})
     # return render(request, "tasks/index.html" )
 
 

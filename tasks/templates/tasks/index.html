@@ -13,16 +13,13 @@
   {% endfor %}
   </ul>
     <h2>Приоритеты</h2>
-{#    {% for pri in priority %}#}
-{#        {% if pri.name == "Высокий приоритет" %}#}
-{#    {% for pri, count in priority.items %}#}
-{#        {{ pri }} {{ count }}#}
-{#        {% if pri == "Высокий приоритет" %}#}
-{#            <span class="badge badge-danger">{{ pri.name }}: {{ pri.priority_count }}</span>#}
-{#        {% elif pri.name == "Средний приоритет" %}#}
-{#            <span class="badge badge-secondary">{{ pri.name }}: {{ pri.priority_count }}</span>#}
-{#        {% elif pri.name == "Низкий приоритет" %}#}
-{#            <span class="badge badge-success">{{ pri.name }}: {{ pri.priority_count }}</span>#}
-{#        {% endif %}#}
-{#    {% endfor %}#}
+    {% for pri, count in priority.items %}
+        {% if pri.name == "Высокий приоритет" %}
+            <span class="badge badge-danger">{{ pri.name }}: {{ count }}</span>
+        {% elif pri.name == "Средний приоритет" %}
+            <span class="badge badge-secondary">{{ pri.name }}: {{ count }}</span>
+        {% elif pri.name == "Низкий приоритет" %}
+            <span class="badge badge-success">{{ pri.name }}: {{ count }}</span>
+        {% endif %}
+    {% endfor %}
 {% endblock %}
