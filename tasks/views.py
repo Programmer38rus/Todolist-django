@@ -36,18 +36,21 @@ def index(request):
     list = []
     dict = {}
 
-    todoitems = TodoItem.objects.filter(owner=request.user).select_related()
+    try:
+        todoitems = TodoItem.objects.filter(owner=request.user).select_related()
 
-    for item in todoitems:
-        list.append(TodoItem.category.through.objects.filter(todoitem_id=item.id).prefetch_related()[0])
+        for item in todoitems:
+            list.append(TodoItem.category.through.objects.filter(todoitem_id=item.id).prefetch_related()[0])
 
-    category = Category.objects.all().select_related()
-    for cat in category:
-        dict[cat] = 0
-        for i in list:
-            if cat.id == i.category_id:
-                dict[cat] += 1
-    print(dict)
+        category = Category.objects.all().select_related()
+        for cat in category:
+            dict[cat] = 0
+            for i in list:
+                if cat.id == i.category_id:
+                    dict[cat] += 1
+    except:
+        pass
+
     # for dic, value in dict.items():
     #     print(dic.name, value)
     # for i in todo_category:
