@@ -1406,3 +1406,14 @@ django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be 
 [2020-12-13 05:58:02 +0000] [5637] [INFO] Booting worker with pid: 5637
 [2020-12-13 05:58:02 +0000] [5638] [INFO] Booting worker with pid: 5638
 [2020-12-13 05:58:03 +0000] [5639] [INFO] Booting worker with pid: 5639
+[2020-12-13 06:08:23 +0000] [5634] [INFO] Handling signal: term
+[2020-12-13 00:08:23 -0600] [5638] [INFO] Worker exiting (pid: 5638)
+[2020-12-13 00:08:23 -0600] [5639] [INFO] Worker exiting (pid: 5639)
+[2020-12-13 00:08:23 -0600] [5637] [INFO] Worker exiting (pid: 5637)
+[2020-12-13 06:08:23 +0000] [5634] [INFO] Shutting down: Master
+[2020-12-13 06:08:24 +0000] [6048] [INFO] Starting gunicorn 20.0.4
+[2020-12-13 06:08:24 +0000] [6048] [INFO] Listening at: unix:/var/www/Todolist-django/todolist.sock (6048)
+[2020-12-13 06:08:24 +0000] [6048] [INFO] Using worker: sync
+[2020-12-13 06:08:24 +0000] [6053] [INFO] Booting worker with pid: 6053
+[2020-12-13 06:08:24 +0000] [6054] [INFO] Booting worker with pid: 6054
+[2020-12-13 06:08:24 +0000] [6055] [INFO] Booting worker with pid: 6055
