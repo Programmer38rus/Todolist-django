@@ -57,7 +57,6 @@ def index(request):
             for task in list_priority:
                 if pri.id == task.priority.id:
                     dict_priority[pri] += 1
-        print(dict_priority)
     except:
         pass
 
