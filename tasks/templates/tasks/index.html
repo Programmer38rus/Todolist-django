@@ -6,30 +6,23 @@
 {% block main_content %}
   <h1>Категории и числа</h1>
   <ul>
-{#  {% for cat, count in counts.items %}#}
-{#    <a href={% url "tasks:list_by_cat" cat.id %}><span class="badge badge-info">{{ cat }}: {{ count }}</span></a>#}
-{#  {% empty %}#}
-{#    <li>Список задач по категориям пуст. Попробуйте добавить их из админки</li>#}
-{#  {% endfor %}#}
-  {% for cat in category %}
-      <a href={% url "tasks:list_by_cat" cat.slug %}>
-          <span class="badge badge-info">{{ cat.name }}: {{ cat.todos_count }}</span>
-      </a>
+  {% for cat, count in category.items %}
+    <a href={% url "tasks:list_by_cat" cat.slug %}><span class="badge badge-info">{{ cat.name }}: {{ count }}</span></a>
   {% empty %}
-      <li>Список задач по категориям пуст. Попробуйте добавить их из админки</li>
+    <li>Список задач по категориям пуст. Попробуйте добавить их из админки</li>
   {% endfor %}
   </ul>
     <h2>Приоритеты</h2>
-    {% for pri in priority %}
-        {% if pri.name == "Высокий приоритет" %}
+{#    {% for pri in priority %}#}
+{#        {% if pri.name == "Высокий приоритет" %}#}
 {#    {% for pri, count in priority.items %}#}
 {#        {{ pri }} {{ count }}#}
 {#        {% if pri == "Высокий приоритет" %}#}
-            <span class="badge badge-danger">{{ pri.name }}: {{ pri.priority_count }}</span>
-        {% elif pri.name == "Средний приоритет" %}
-            <span class="badge badge-secondary">{{ pri.name }}: {{ pri.priority_count }}</span>
-        {% elif pri.name == "Низкий приоритет" %}
-            <span class="badge badge-success">{{ pri.name }}: {{ pri.priority_count }}</span>
-        {% endif %}
-    {% endfor %}
+{#            <span class="badge badge-danger">{{ pri.name }}: {{ pri.priority_count }}</span>#}
+{#        {% elif pri.name == "Средний приоритет" %}#}
+{#            <span class="badge badge-secondary">{{ pri.name }}: {{ pri.priority_count }}</span>#}
+{#        {% elif pri.name == "Низкий приоритет" %}#}
+{#            <span class="badge badge-success">{{ pri.name }}: {{ pri.priority_count }}</span>#}
+{#        {% endif %}#}
+{#    {% endfor %}#}
 {% endblock %}

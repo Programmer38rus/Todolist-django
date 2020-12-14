@@ -4,7 +4,8 @@ from django.views.generic.detail import DetailView
 from tasks.models import TodoItem, Category, Priority
 # from django.views.decorators.cache import cache_page
 from django.core.cache import cache
-
+from collections import Counter
+from django.db.models import Count
 import datetime
 
 
@@ -29,10 +30,30 @@ def index(request):
     # return render(request, "tasks/index.html", {"counts": counts, 'cache': cache.get('date_open')})
 
     # 4rd version
-    category = Category.objects.all().select_related()
-    priority = Priority.objects.all().select_related()
+    # category = Category.objects.all().select_related()
+    # priority = Priority.objects.all().select_related()
 
-    return render(request, "tasks/index.html", {"category": category, "priority": priority, "cache": cache.get('date_open')})
+    list = []
+    dict = {}
+
+    todoitems = TodoItem.objects.filter(owner=request.user).select_related()
+
+    for item in todoitems:
+        list.append(TodoItem.category.through.objects.filter(todoitem_id=item.id).prefetch_related()[0])
+
+    category = Category.objects.all().select_related()
+    for cat in category:
+        dict[cat] = 0
+        for i in list:
+            if cat.id == i.category_id:
+                dict[cat] += 1
+    print(dict)
+    # for dic, value in dict.items():
+    #     print(dic.name, value)
+    # for i in todo_category:
+    #     print(i.category.id)
+    return render(request, "tasks/index.html", {"category": dict, "priority": 'priority', "cache": cache.get('date_open')})
+    # return render(request, "tasks/index.html" )
 
 
 def filter_tasks(tags_by_task):

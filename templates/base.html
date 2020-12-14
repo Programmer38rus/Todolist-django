@@ -27,11 +27,15 @@
 	    <i class="fas fa-cog"></i>&nbsp;<a href='{% url 'admin:index' %}'>админка</a>
           {% endblock %}
         </div>
+            <div class="main_content col-8">
+            {% if user.is_authenticated %}
+              {% block main_content %}
+              {% endblock %}
+            {% else %}
+                <h2>Войдите под своим логином и паролем</h2>
+            {% endif %}
+            </div>
 
-        <div class="main_content col-8">
-          {% block main_content %}
-          {% endblock %}
-        </div>
 
       </div>
     </div>

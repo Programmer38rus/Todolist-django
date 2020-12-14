@@ -41,12 +41,11 @@ class TodoItem(models.Model):
     #     (PRIORITY_MEDIUM, "Средний приоритет"),
     #     (PRIORITY_LOW, "Низкий приоритет"),
     # ]
-
     description = models.TextField("описание")
     is_completed = models.BooleanField("выполнено", default=False)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
-    owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name="tasks", default=User.username)
+    owner = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name='Пользователь')
     # priority = models.IntegerField(
     #     "Приоритет", choices=PRIORITY_CHOICES, default=PRIORITY_MEDIUM
     # )
@@ -59,6 +58,7 @@ class TodoItem(models.Model):
 
     class Meta:
         verbose_name_plural = "Задачи"
+
     def priority_counter():
         for i in Priority.objects.all():
             i.priority_count = TodoItem.objects.filter(priority=i.id).count()
